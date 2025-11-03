@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, Courier, monospace;
+}
+body {
+    display: flex;
+    justify-content: space-around;
+}
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    padding: 20px;
+    border-radius: 60px;
+    margin-top: 30px;
+}
+button {
+    width: 100px;
+    padding: 4px;
+    font-weight: bold;
+    margin: 10px;
+}
+#enterCon {
+    background-color: #0659ff;
+
+}
+#findCon {
+    background-color: #ee0101;
+}
